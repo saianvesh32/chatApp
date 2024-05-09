@@ -3,7 +3,7 @@ import { useRef } from "react";
 import Avatar from "../../assets/avatar.jpeg";
 import Input from "../../components/Input";
 import { useState } from "react";
-import Img1 from "../../assets/surya.jpg";
+import Img1 from "../../assets/avatar.jpeg";
 import {io} from 'socket.io-client'
 const Dashboard = () => {
   const [user, setUser] = useState(
