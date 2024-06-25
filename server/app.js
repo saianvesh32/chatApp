@@ -98,7 +98,6 @@ app.post('/api/register', async (req, res, next) => {
                 return res.status(200).send('User registered successfully');
             }
         }
-
     } catch (error) {
         console.log(error, 'Error')
     }

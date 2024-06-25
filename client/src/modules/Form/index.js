@@ -13,8 +13,8 @@ const Form = ({
         email: '',
         password: ''
     })
-    const navigate = useNavigate();
-    
+ const navigate = useNavigate();
+ console.log(isSignInPage);
     const handleSubmit = async(e) => {
         console.log('data :>> ', data);
         e.preventDefault()

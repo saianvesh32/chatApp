@@ -13,6 +13,6 @@ const messageSchema = mongoose.Schema({
     }
 });
 
-const Users = mongoose.model('Message', messageSchema);
+const Messages = mongoose.model('Message', messageSchema);
 
-module.exports = Users;
+module.exports = Messages;
