@@ -34,7 +34,7 @@ const Form = ({
             if(resData.token) {
                 localStorage.setItem('user:token', resData.token)
                 localStorage.setItem('user:detail', JSON.stringify(resData.user))
-                navigate('/')
+                navigate('https://chat-app-server-5nbz4rtht-sai-anveshs-projects.vercel.app/')
             }
         }
     }
