@@ -53,8 +53,8 @@ io.on('connection',socket=>{
               receiverId,
               user:{id:user._id,fullName:user.fullName,email:user.email}
            });
-           
-        }else {
+        }
+        else {
             io.to(sender.socketId).emit('getMessage', {
                 senderId,
                 message,
